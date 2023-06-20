@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <section class="container">
+        <h1>Calculadora de IMC</h1>
+        <P>A classificação do índice de massa corporal (IMC) pode ajudar na identificação de diversos problemas de saúde, como a obesidade e a desnutrição. Com a calculadora você também pode consultar o seu intervalo de peso ideal para garantir cuidados preventivos e maior qualidade de vida.</P>
+        <form action="/" id="formulario" method="POST">
+            <label for="peso">Peso (Kg):</label>
+            <input type="texto" id="peso" name="peso">
+            <label for="altura">Altura (M):</label>
+            <input type="texto" id="altura" name="altura">
+            <button type="submit">Calcular</button>            
+        </form>
+
+        <div id="resultado"></div>
+    </section>
+ 
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
